@@ -22,6 +22,7 @@ theme:
         name: Switch to light mode
 nav:
 - Home : index.md
+- Drive - How to pay : drive-pay.md
 - Terms of Service :
   - Customer/User : tos-user.md
   - Driver/Rider : tos-driver.md
