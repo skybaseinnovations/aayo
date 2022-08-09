@@ -1,0 +1,13 @@
+:root > * {
+    --md-primary-fg-color:        #32c5ff;
+    --md-primary-fg-color--light: #d2f2ff;
+    --md-primary-fg-color--dark:  #32c5ff;
+  }
+/* @font-face {
+    font-family: "Sofia Pro";
+    src: "Sofia_Pro_Medium.ttf";
+}
+
+:root {
+    --md-text-font: "Sofia Pro"; 
+  } */

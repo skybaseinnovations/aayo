@@ -1,0 +1,46 @@
+site_name: Aayo
+theme:
+  name: material
+  logo: assets/logo.svg
+  palette:
+     # Palette toggle for light mode
+      # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+        
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+- Home : index.md
+- Terms of Service :
+  - Customer/User : tos-user.md
+  - Driver/Rider : tos-driver.md
+- Privacy Policy : privacy.md
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/aayo.app
+    - icon: fontawesome/brands/facebook
+      link: https://instagram.com/aayoapp
+copyright: Copyright &copy; 2022 Skybase innovations Pvt. Ltd.
+extra:
+  generator: false
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+extra_css:
+  - stylesheets/extra.css
